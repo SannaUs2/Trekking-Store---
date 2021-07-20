@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+
+
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	font-family: 'Ubuntu', sans-serif;
+	
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+.header{
+    display: flex;
+    background: #689cd2;
+    color: white;
+    justify-content: space-between;
+    padding: 1px;
+    transform: translate(0, -850px);
+}
+
+
+.header__section{
+    display: flex;
+    align-items: center;
+}
+
+.header__Item{
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 22px;
+    font-family: cursive;
+}
+
+
+.header__Item:hover{
+    background-color: green;
+    transition: .8s;
+    border-radius: 5px;
+   
+}
+
+
+
+.intro{	
+	width: 100%;
+	height: 850px;
+	background: #18ADFF url(https://europe-today.ru/media/2011/12/image-292125-galleryV9-szem1.jpg);
+	background-size: cover;
+    text-align: center;
+    
+}
+
+
+
+.textNew{
+    color: white;
+    transform: translate(420px, -540px);
+    font-size: 40px;
+    position: relative;
+}
+
+
+
+.textNew2{
+    font-size: 24px;
+    color: white;
+     transform: translate(320px, -520px);
+     position: relative;
+}
+
+
+
+
+
+
+/*      меню продуктов    #FFDEAD */
+
+.sellESS{
+    background-color: #DBE2EF;
+    width: 100%;
+    height: 100px;
+    transform: translate(0, -126px);
+        
+}
+
+
+.product{
+    transform: translate(1157PX, -244px);
+    color: black;
+    
+}
+
+.def{
+    transform: translate(1150PX, -205px);
+    background-color: #FF847C;
+    width: 160px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+
+.man1{
+    transform: translate(70px, -265px);
+    
+}
+
+.man2{
+     transform: translate(200px, -300px);
+    
+}
+
+
+.man3{
+    transform: translate(360px, -335px);
+    
+}
+
+
+.line{
+    background-color: gray;
+    width: 70%;
+    height: 2px;
+    transform: translate(210px, -190px);
+    
+
+}
+
+
+.linetext{
+    transform: translate(115px, -200px);
+    color: gray;
+}
+
+
+
+
+
+/*     товары                    */
+
+
+
+/* первый блок */
+
+
+
+.t-hirt{
+     background-color: #DBE2EF;
+     padding: 10px;
+     width: 180px;
+     height: 230px;
+     transform: translate(120px, -24px);
+     border: 3px #54514A solid;
+}
+
+
+.thTEXT{
+    color: gray;
+    transform: translate(130px, -50px);
+    
+    
+}
+
+.dolors{
+    transform: translate(270px, -68px);
+    
+}
+
+.colors1{
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+    transform: translate(270px, -305px);
+}
+
+
+.colors2{
+    background-color: blue;
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+    transform: translate(290px, -320px);
+    
+}
+
+
+
+
+/* второй блок */
+
+.pBLOCK{
+    
+     background-color: #DBE2EF;
+     padding: 10px;
+     width: 180px;
+     height: 230px;
+     transform: translate(530px, -347px);
+     border: 3px #54514A solid;
+    
+}
+
+.pants{
+    color: gray;
+    transform: translate(545px, -585px);
+    
+    
+}
+
+
+.pTEXT{
+    color: gray;
+    transform: translate(540px, -568px);
+    
+}
+
+
+.dolors2{
+     transform: translate(677px, -587px);
+    
+    
+    
+}
+
+
+.color1{
+       background-color: GREEN;
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+    transform: translate(690px, -826px);  
+    
+    
+}
+
+
+
+.color2{
+    background-color: blue;
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+    transform: translate(710px, -841px); 
+    
+}
+
+
+/*  третий блок     */
+
+
+.block2{
+    
+     background-color: #DBE2EF;
+     padding: 10px;
+     width: 180px;
+     height: 230px;
+     transform: translate(970px, -867px);
+     border: 3px #54514A solid;
+    
+}
+
+
+
+.back{
+    transform: translate(950px, -1090px); 
+}
+
+
+
+.bTEXT{
+    color: gray;
+    transform: translate(980px, -1077px); 
+    
+    
+}
+
+
+.dolors3{
+     transform: translate(1115px, -1097px); 
+
+
+}
+
+
+/* подвал */
+
+
+
+
+
+.about{
+    background-color: #3F371C;
+    width: 100%;
+    height: 500px;
+    transform: translate(0, -890px);
+    
+}
+
+
+.aboutTEXT{
+    transform: translate(190px, -1200px);
+    font-size: 16px;
+    color: white;
+    border: 2px #866E28 solid;
+    padding: 40px 40px 40px 40px ;
+    width: 900px
+}
+
+
+
+.aboutA{
+    color: #8C7B45;
+    transform: translate(620px, -1380px);
+    font-size: 27px;
+}
+
+
+.vk{
+    background-color: #333333;
+    width: 100%;
+    height: 80px;
+    transform: translate(0, -1043px);
+    
+}
+
+
+.textVK{
+    transform: translate(30px, -1093px);
+    color: white;
+    
+}
+
+
+.hamer{
+    background-color: #2A2C2B;
+    width: 100%;
+    height: 300px;
+    transform: translate(0, -1062px);
+ ;
+}
+
+
+
+.texthamer{
+    transform: translate(20px, -1320px);
+    color: white;
+    
+}
+
+
+.texthamer2{
+    transform: translate(1020px, -1390px);
+    color: white;
+    font-size: 15px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
